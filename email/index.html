@@ -3,8 +3,137 @@
 <head>
   <title>Gamessoc Email</title>
   <meta charset="utf-8">
+  <style>
+a{
+  color: #8db3ef;
+}
+
+html, body, div{
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.header{
+  background-image: url("http://www.games.dcu.ie/email/gamessocbanner.png");
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+.logo{
+  display: block;
+  margin: auto;
+  max-width: 80%;
+}
+
+h1{
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+.mainbody p.secname{
+  margin-left: 15%;
+  font-style: italic;
+}
+
+.mainbody p.sectitle{
+  margin-left: 20%;
+  font-weight: bold;
+}
+
+li{
+  font: 1.25em "Arial", sans-serif;
+}
+
+.mainbody p {
+  padding-top: 0.5em;
+  font: 1.25em "Arial", sans-serif;
+}
+
+.mainbody .news, li{
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 0.05em;
+}
+
+.mainbody li{
+  font-weight: bold;
+}
+
+.mainbody{
+padding-bottom: 2em;
+}
+
+h2{
+ width: 85%;
+ margin: 0 auto;
+ font-family: "Arial", sans-serif;
+ padding-top: 0.5em;
+}
+
+.endpage{
+  background-color: #1d417a;
+  color: white;
+  text-align: center;
+}
+
+.mediafooter, .emaildata{
+  font: bold 1em "Arial", sans-serif;
+  width: 35%;
+  display: inline-block;
+  padding-top: 0.02em;
+  height: 100%;
+}
+
+.mediafooter{
+  margin-left: 10%; 
+}
+
+.emaildata{
+  margin-right: 10%;
+}
+
+.socialbutton{
+  padding: 0.25em 0.25em 0.25em 0.25em;
+}
+  </style>
 </head>
-<body>
-  <p>Test</p>
-</body>
+  <body>
+    <div class="header">
+      <img src="http://www.games.dcu.ie/email/textlogo150px.png" class="logo"/>
+    </div>
+    <div class="mainbody">
+      <h1>Week 0: Drafts Are Fun</h1>
+      <p class="news">Hello World! This email acts as a template for the new Gamessoc emails, but it also provides you with a guide.<br/>This email assumes that you have no HTML experience, so don't worry! The template should hopefully be easy to follow.<br/>Here's a quick list of the topics we'll be covering:</p>
+      <ul>
+        <li>Finding the template</li>
+        <li>Setting up a draft</li>
+        <li>Download YAMM</li>
+        <li>Configuring YAMM & Sending</li>
+      </ul>
+      <h2>Finding the template</h2>
+      <p class="news">The template for the emails is hosted on Github. This should link directly to the template as plaintext. If that doesn't work, ask for the Github repository for gamessoc and the template should be in the email folder.<br/> Right, that was step one-- not so bad!</p>
+      <h2>Setting up a draft</h2>
+      <p class="news">With your template downloaded, it's time to start drafting! Write your email separately and then get it approved by the committee, and then pop it into the draft using Notepad or any other simple text editor. Simple enough, paragraphs go within the p tags, your topic titles go in the h2 and li tags. If you need more paragraphs just copy/paste a h2-p set and a li set. If you want to add a link, follow the formatting that the Unsubscribe link at the end uses. When you're done, get onto Gmail, copy and paste all the code into Gmail and save it as a draft (with your email titled)!
+      <h2>Download YAMM</h2>
+      <p class="news">YAMM stands for Yet Another Mail Merge, a Google Sheets plugin that allows you to send fancy emails. Download it here.<br/>You can then open a new Google Sheets document, add "announce-gamesoc@lists.redbrick.dcu.ie" to one cell of the document, and then start the mail merge. Go to the "Add-ons" tab, select Yet Another Mail Merge, and then click "Start Mail Merge".</p>
+      <h2>Configuring YAMM & Sending</h2>
+      <p class="news">Nearly there now! From this page, you can choose what name to send the email as. Select your draft from earlier and you're ready! There are more configuration options, though. You can track whether people have opened the email or not (very cool!), as well as changing the reply-to address (and send-from address, but I have yet to get the gamessoc email enabled on Gmail). You can send a test email to yourself just to ensure everything is functioning properly, or send the email to the list directly. You're done!</p>
+<p class="news">So that's all there is to it! And it looks a little nicer than plain text.</p>
+<p class="secname">Not Natasha Dunbar,</p>
+<p class="sectitle">Not the Gamessoc Secretary</p>
+    </div>
+    <div class="endpage">
+      <div class="mediafooter">
+        <p>Join our communities:<p>	
+       <a href="http://www.facebook.com/DCUGamessoc/" target="_blank"><img src="http://www.games.dcu.ie/email/facebook.png" class="socialbutton" alt="Facebook" title="Facebook"></a>
+       <a href="http://twitter.com/Gamessoc/" target="_blank"> <img src="http://www.games.dcu.ie/email/twitter.png" class="socialbutton" alt="Twitter" title="Twitter"></a>
+       <a href="http://www.youtube.com/user/Gamessoc" target="_blank"> <img src="http://www.games.dcu.ie/email/youtube.png" class="socialbutton" alt="YouTube" title="YouTube"></a>
+      </div>
+      <div class="emaildata">
+        <p>Email the committee at:<br/>games@redbrick.dcu.ie</p>
+        <p>If you wish to stop recieving these emails, you can <a href="http://lists.redbrick.dcu.ie/listinfo/announce-gamesoc" target="_blank">Unsubscribe</a> at any time.</p>
+      </div>   
+    </div>
+  </body>
 </html>
