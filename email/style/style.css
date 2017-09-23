@@ -1,0 +1,76 @@
+
+
+a{
+  color: #8db3ef;
+}
+
+html, body, div{
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.header{
+  background-image: url("http://www.games.dcu.ie/email/gamessocbanner.png");
+  background-size: contain;
+  background-repeat: repeat-x;
+  box-shadow: 0px 5px 5px #888888;
+}
+
+.logo{
+  display: block;
+  margin: auto;
+}
+
+h1{
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+.mainbody p {
+  padding-top: 0.5em;
+}
+
+.mainbody p, li{
+  max-width: 80%;
+  margin: 0 auto;
+  font: 1.25em "Arial", sans-serif;
+  padding-bottom: 0.05em;
+}
+
+.mainbody li{
+  font-weight: bold;
+}
+
+h2{
+ width: 85%;
+ margin: 0 auto;
+ font-family: "Arial", sans-serif;
+ padding-top: 0.5em;
+}
+
+.endpage{
+  background-color: #1d417a;
+  color: white;
+  text-align: center;
+}
+
+.mediafooter, .emaildata{
+  font: bold 1em "Arial", sans-serif;
+  width: 35%;
+  display: inline-block;
+  padding-top: 0.02em;
+  height: 100%;
+}
+
+.mediafooter{
+  margin-left: 10%; 
+}
+
+.emaildata{
+  margin-right: 10%;
+}
+
+.socialbutton{
+  padding: 0.25em 0.25em 0.25em 0.25em;
+}

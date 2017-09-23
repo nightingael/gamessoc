@@ -1,0 +1,142 @@
+<!-- This is the GamesSoc email template. Please try not to break it.
+ABSOLUTELY DO NOT TOUCH anything in the <head> tags unless you know your CSS.
+General secretary duties will involve editing within the <h1>, <h2>, and <p> tags within the mainbody div.
+Anything within these tags with dashes and exclamation marks are comments. They won't show up. Nobody will see me screaming at you. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+a{
+  color: #8db3ef;
+}
+
+html, body, div{
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.header{
+  background-image: url("http://www.games.dcu.ie/email/gamessocbanner.png");
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+.logo{
+  display: block;
+  margin: auto;
+  max-width: 80%;
+}
+
+h1{
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+.mainbody p.secname{
+  margin-left: 15%;
+  font-style: italic;
+  padding: 0;
+}
+
+.mainbody p.sectitle{
+  margin-left: 20%;
+  font-weight: bold;
+  padding: 0;
+}
+
+li{
+  font: 1.25em "Arial", sans-serif;
+}
+
+.mainbody p {
+  padding-top: 0.5em;
+  font: 1.25em "Arial", sans-serif;
+}
+
+.mainbody .news, li{
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 0.05em;
+}
+
+.mainbody li{
+  font-weight: bold;
+}
+
+.mainbody{
+padding-bottom: 2em;
+}
+
+h2{
+ width: 85%;
+ margin: 0 auto;
+ font-family: "Arial", sans-serif;
+ padding-top: 0.5em;
+}
+
+.endpage{
+  background-color: #1d417a;
+  color: white;
+  text-align: center;
+}
+
+.mediafooter, .emaildata{
+  font: bold 1em "Arial", sans-serif;
+  width: 35%;
+  display: inline-block;
+  padding-top: 0.02em;
+  height: 100%;
+}
+
+.mediafooter{
+  margin-left: 10%; 
+}
+
+.emaildata{
+  margin-right: 10%;
+}
+
+.socialbutton{
+  padding: 0.25em 0.25em 0.25em 0.25em;
+}
+  </style>
+</head>
+  <body>
+    <div class="header">
+      <img src="http://www.games.dcu.ie/email/textlogo150px.png" class="logo"/>
+    </div>
+    <div class="mainbody"> <!-- THIS IS WHERE YOU SHOULD START EDITING -->
+      <h1>Week X: [TITLE]</h1>
+      <!-- Quick tip, type <br/> to act as an enter break within paragraphs. -->
+      <p class="news">[Opening Paragraph Goes Here]</p>
+      <ul><!-- List all your topics within li tags as an index -->
+        <li>[TOPIC 1]</li>
+        <li>[TOPIC 2]</li>
+      </ul><!-- Need more list items? Just copy the <li></li> pairs but keep them within the <ul> tags. -->
+      <h2>[TOPIC 1]</h2>
+      <p class="news">[PARAGRAPH 1]</p>
+      <h2>[TOPIC 2]</h2>
+      <p class="news">[PARAGRAPH 2]</p>
+      <!-- If you need more paragraphs, copy the h2 and the p tags together. The class="news" bit makes sure it's formatted nicely, include that. -->
+      <p class="news">[CLOSING PARAGRAPH]</p>
+      <p class="secname">[SECRETARY NAME],</p>
+      <p class="sectitle">GamesSoc Secretary</p>
+    </div> <!-- THIS IS WHERE YOU SHOULD STOP EDITING -->
+    <div class="endpage">
+      <div class="mediafooter">
+        <p>Join our communities:<p>	
+       <a href="http://www.facebook.com/DCUGamessoc/" target="_blank"><img src="http://www.games.dcu.ie/email/facebook.png" class="socialbutton" alt="Facebook" title="Facebook"></a>
+       <a href="http://twitter.com/Gamessoc/" target="_blank"> <img src="http://www.games.dcu.ie/email/twitter.png" class="socialbutton" alt="Twitter" title="Twitter"></a>
+       <a href="http://www.youtube.com/user/Gamessoc" target="_blank"> <img src="http://www.games.dcu.ie/email/youtube.png" class="socialbutton" alt="YouTube" title="YouTube"></a>
+      </div>
+      <div class="emaildata">
+        <p>Email the committee at:<br/>games@redbrick.dcu.ie</p>
+        <p>If you wish to stop recieving these emails, you can <a href="http://lists.redbrick.dcu.ie/listinfo/announce-gamesoc" target="_blank">Unsubscribe</a> at any time.</p>
+      </div>   
+    </div>
+  </body>
+</html>
+
+<!-- All done! Save it as a .html file, and then open it with your web browser to see how it looks. If it looks weird you altered something you shouldn't have, fixitfixitfixit -->
